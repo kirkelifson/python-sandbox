@@ -11,4 +11,4 @@ for shift in range(1, 26):
                 cipher += alpha[(ord(letter) - ord('a') + shift) % 26]
             else:
                 cipher += letter
-    print cipher, "\n"
+    print cipher, '\n'
